@@ -27,5 +27,5 @@
 	/*
 	*			Checks
 	*/
-	int			ft_isDigit(char c);
+	int			ft_is_digit(char c);
 #endif
