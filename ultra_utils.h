@@ -25,9 +25,7 @@
 	void 		ft_putstr_fd(int fd, const char *str);
 	
 	/*
-	*			Basura
+	*			Checks
 	*/
-	int 		ft_putchar0(int c); //este saldrá de aquí
-	int 		ft_strlentil(char *str); //esta es otra que se va
-
+	int			ft_isDigit(char c);
 #endif
