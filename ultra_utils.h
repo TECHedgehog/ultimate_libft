@@ -34,4 +34,5 @@ int		ft_is_digit(char c);
 */
 void	*ft_free(void *ptr);
 void	*ft_dummy(int n);
+void	*ft_close(int fd);
 #endif

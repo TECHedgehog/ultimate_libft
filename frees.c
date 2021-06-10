@@ -13,3 +13,9 @@ void	*ft_dummy(int n)
 		n++;
 	return (0);
 }
+
+void	*ft_close(int fd)
+{
+	close(fd);
+	return (0);
+}
