@@ -59,7 +59,7 @@ int	ft_atoi(const char *str)
 		str++;
 	if (*str == '-')
 		sign = -1;
-	if (*str == '-' || str == '+')
+	if (*str == '-' || *str == '+')
 		str++;
 	while (*str >= '0' && *str++ <= '9')
 		ret = *(str - 1) - 48 + 10 * ret;
