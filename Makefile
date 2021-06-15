@@ -27,8 +27,9 @@ HDDIRS=-I includes/
 SRCSTR=ultra_str0.c ultra_str1.c
 SRCIO=ultra_io0.c
 SRCFREE=frees.c
+SRCLOG=log.c
 
-SRC=$(SRCSTR) $(SRCIO) checks.c $(SRCFREE)
+SRC=$(SRCSTR) $(SRCIO) checks.c $(SRCFREE) $(SRCLOG)
 
 OBJ=$(SRC:.c=.o)
 
