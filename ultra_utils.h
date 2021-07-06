@@ -17,12 +17,14 @@ unsigned ft_strlen(const char *str);
 
 int		ft_atoi(const char *str);
 int		ft_strcmp(const char *s1, const char *s2);
+int		ft_strfind(const char *str, char to_find);
 
 /*
 *			I/O related functions
 */
 void	ft_putstr(const char *str);
 void	ft_putstr_fd(int fd, const char *str);
+void	ft_putnbr_fd(int fd, long long num);
 
 /*
 *			Checks
@@ -41,5 +43,6 @@ void	*ft_dummy(int n);
 */
 int		ft_log(const char *str);
 int		ft_logn(const char *str);
+int		ft_nlog(long long int n);
 
 #endif

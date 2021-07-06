@@ -14,7 +14,7 @@ NAME=libultra.a
 
 CC=gcc
 
-CFLAGS=-Wall -Wextra -Werror -O3
+CFLAGS=-g -Wall -Wextra -Werror -O3
 
 RM=rm -f
 
