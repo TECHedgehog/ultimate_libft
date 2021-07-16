@@ -25,6 +25,7 @@ int		ft_strfind(const char *str, char to_find);
 void	ft_putstr(const char *str);
 void	ft_putstr_fd(int fd, const char *str);
 void	ft_putnbr_fd(int fd, long long num);
+int		get_next_line(char **line);
 
 /*
 *			Checks
