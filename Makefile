@@ -14,7 +14,7 @@ NAME=libultra.a
 
 CC=gcc
 
-CFLAGS=-g -Wall -Wextra -Werror -O3
+CFLAGS=-Wall -Wextra -Werror -O3
 
 RM=rm -f
 
@@ -25,7 +25,7 @@ LDLIBS=-lft
 HDDIRS=-I includes/
 
 SRCSTR=ultra_str0.c ultra_str1.c
-SRCIO=ultra_io0.c
+SRCIO=ultra_io0.c get_next_line.c
 SRCFREE=frees.c
 SRCLOG=log.c
 
