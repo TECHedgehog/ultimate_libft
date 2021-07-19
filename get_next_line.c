@@ -1,3 +1,5 @@
+#include "ultra_utils.h"
+
 /*
 *	Simple get next line function, stores next line in
 *	argument line, returns -1 if error, 0 if eof reached
